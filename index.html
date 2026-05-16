@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nindy | Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══ -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#home">NINDY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="bi bi-list text-white fs-4"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="home">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-6 order-2 order-lg-1 reveal">
+          <p class="hero-greeting">Hi there, I'm</p>
+          <h1 class="hero-name gradient-text">Pramesthi<br>Nindya Pratiwi</h1>
+          <div class="hero-badge">
+            <i class="bi bi-circle-fill badge-dot"></i>
+            Software Engineering Student
+          </div>
+          <p class="hero-desc">
+           Hi, I'm Nindy! A Software Engineering student at SMK Negeri 1 Tengaran. Passionate about coding and building digital experiences.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#project" class="btn-primary-custom">View My Work <i class="bi bi-arrow-right-short"></i></a>
+            <a href="#contact" class="btn-outline-custom">Let's Connect</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center reveal">
+          <div class="hero-img-wrap">
+            <div class="hero-img-glow"></div>
+            <div class="hero-img-ring"></div>
+            <div class="hero-img-inner">
+              <div class="hero-img-placeholder">
+                <img src="asset/fotonindy.png" alt="">
+              </div>
+            </div>
+            <div class="glow-dot"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-5 d-flex justify-content-center reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-inner">
+              <div class="hero-img-placeholder">
+                <img src="asset/fotonindy.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 reveal">
+          <p class="section-label">ABOUT ME</p>
+          <h2 class="section-title">A little story<br>about <span class="gradient-text">myself</span></h2>
+          <div class="divider"></div>
+          <p class="body-text">
+            Hi, let me introduce myself. My name is Pramesthi Nindya Pratiwi, but people usually call me Nindy. I am a 10th-grade student at SMK Negeri 1 Tengaran, majoring in Software Engineering.
+          </p>
+          <p class="body-text mt-3">
+             I was born in Semarang Regency on February 20, 2010, and I am currently 16 years old. My hobby is swimming. More than just a hobby, I have competed in several swimming competitions at both the club and regency levels.
+          </p>
+          <a href="experience.html" class="btn-primary-custom mt-4 d-inline-flex">My Experience <i class="bi bi-arrow-right-short"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- ══ SKILLS ══ -->
+  <section id="skills">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <p class="section-label">SKILLS</p>
+        <h2 class="section-title">The technology that I master</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/tailwind.png" alt="" height="40px" width="40px">
+              <h5 class="skill-name">Tailwind</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="30" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">30%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/bootstrap.png" alt="" height="40px" width="50px">
+              <h5 class="skill-name">Bootstrap</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="50" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">50%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/html.png" alt="" height="40px" width="40px">
+              <h5 class="skill-name">HTML</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="75" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">75%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/figma.png" alt="" height="60px" width="60px">
+              <h5 class="skill-name">Figma</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="70" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">70%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/js.png" alt="" height="50px" width="50px">
+              <h5 class="skill-name">JavaScript</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="40" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">40%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="asset/css.png" alt="" height="50px" width="50px">
+              <h5 class="skill-name">CSS</h5>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="60" style="background:linear-gradient(90deg,#43b7cc,#ae58c4)"></div>
+            </div>
+            <div class="skill-percent" style="color:#fff">60%</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+   <!-- ══ PROJECTS ══ -->
+  <section id="project">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <p class="section-label">PROJECT</p>
+        <h2 class="section-title">Projects that I have worked on</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="asset/wastetowonder.png" alt="">
+            </div>
+            <div class="project-body">
+              <h5 class="project-title">WASTE TO WONDER</h5>
+              <p class="project-desc">Website for recycled goods.</p>
+              <a href="https://wastetowonderr.netlify.app/" class="btn-sm-custom">View Web <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="asset/school.png" alt="">
+            </div>
+            <div class="project-body">
+              <h5 class="project-title">SCHOOL</h5>
+              <p class="project-desc">School promotional website.</p>
+              <a href="https://pramesthinindya.github.io/Tugas2.-Bootstrap/" class="btn-sm-custom">View Web <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-thumb">
+            <img src="asset/environment.png" alt="">
+            </div>
+            <div class="project-body">
+              <h5 class="project-title">ENVIRONMENT</h5>
+              <p class="project-desc">Educational website and call to protect nature.</p>
+              <a href="https://pramesthinindya.github.io/Tugas3.-Bootstrap/" class="btn-sm-custom">View Web <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-thumb">
+            <img src="asset/wander.png" alt="">
+            </div>
+            <div class="project-body">
+              <h5 class="project-title">WANDER</h5>
+              <p class="project-desc">Website that contains wander.</p>
+              <a href="https://pramesthinindya.github.io/Tugas4.-Bootstrap-/" class="btn-sm-custom">View Web <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-thumb">
+            <img src="asset/petsupplies.png" alt="">
+            </div>
+            <div class="project-body">
+              <h5 class="project-title">PET CARE & SUPPLIES</h5>
+              <p class="project-desc">Website to buy pet supplies.</p>
+              <a href="https://pramesthinindya.github.io/Tugas5.-Bootstrap-/" class="btn-sm-custom">View Web <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <p class="section-label">CONTACT</p>
+        <h2 class="section-title">Don't hesitate to contact me</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="row g-4 align-items-start">
+
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-list">
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Email</div>
+                <a href="mailto:pramesthinindya69@gmail.com" class="contact-info-value">pramesthinindya69@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon green-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Location</div>
+                <div class="contact-info-value">Tengaran, Semarang, Jawa Tengah</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon blue-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Phone</div>
+                <a href="tel:+6285000420067" class="contact-info-value">+62 850 0042 0067</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-8 reveal">
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <input type="text" class="form-custom" placeholder="Your name" required />
+              </div>
+              <div class="col-sm-6">
+                <input type="email" class="form-custom" placeholder="Your email" required />
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-custom" placeholder="Subject" required />
+              </div>
+              <div class="col-12">
+                <textarea class="form-custom" rows="5" placeholder="Your Message" required style="resize:none;"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-primary-custom w-100 justify-content-center">
+                  Kirim Pesan
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="footer-brand">NINDY</div>
+          <p class="footer-tagline">Building digital excellence<br>with passion and purpose</p>
+        </div>
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+         <div class="col-md-4 text-md-end">
+          <div class="footer-social">
+              <a href="https://www.instagram.com/prmsthinndy" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@prmsthinndy4" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://wa.me/628600420087" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        </div>
+      <div class="footer-bottom">
+        &copy;2026 pramesthi nindy. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast-wrap" id="toastWrap">
+    <div class="toast-custom" id="toast">
+      <i class="bi bi-check-circle-fill" style="color:#34d399;font-size:1.2rem;"></i>
+      <span>Pesan berhasil dikirim! Terima kasih 🎉</span>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
