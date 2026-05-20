@@ -351,6 +351,10 @@ section {
   background: var(--bg-section);
 }
 
+.body-text {
+   text-align: justify;
+}
+
 .about-img-wrap {
   position: relative;
 }
